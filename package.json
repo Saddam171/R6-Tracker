@@ -1,0 +1,25 @@
+{
+  "name": "r6bot",
+  "version": "2.0.0",
+  "description": "Rainbow Six Siege stats Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmes98318/R6Bot.git"
+  },
+  "author": "hmes98318",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmes98318/R6Bot/issues"
+  },
+  "homepage": "https://github.com/hmes98318/R6Bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "r6s-stats-api": "^1.0.1"
+  }
+}
