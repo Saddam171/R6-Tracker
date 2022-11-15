@@ -1,14 +1,14 @@
 # R6Bot
-**Rainbow Six Siege stats Discord Bot**  
+**Estatísticas de Rainbow Six Siege no Discord**  
 
-**This Bot depends on the [`r6s-stats-api`](https://github.com/hmes98318/r6s-stats-api) module to fetch statistics**  
+**Este Bot depende do [`r6s-stats-api`](https://github.com/Saddam171/R6-Tracker) para buscar estatísticas**  
 
-### Reference version  
+### Versão de Uso
 [**node.js  `v16.15.0`**](https://nodejs.org/en/)  
-[**discord.js  `v13.6.0`**](https://discord.js.org/#/)  
+[**discord.js  `v13.6.0`**](https://discord.org/en/)  
 
 
-### Dependencies Modules  
+### Dependências  
 * **discord.js `^13.6.0`**  
 * **@discordjs/rest `^0.3.0`**  
 * **r6s-stats-api `^1.0.1`**  
@@ -16,20 +16,20 @@
 
 
 
-# Installation
+# Instalação
 
-### Clone the repository
+### Clonar o repositório
 ```
-git clone -b v2.0.0 https://github.com/Saddam171/R6-Stats.git
+git clone -b v2.0.0 https://github.com/Saddam171/R6-Tracker.git
 ```
 
-### Install the depedences  
-auto install all dependencies on [`package.json`](./package.json)  
+### Instale as dependências
+instalar automaticamente todas as dependências em [`package.json`](./package.json)  
 ```
 npm install
 ```
 
-### Configure Files  
+### Configurar O Bot 
 [`.env`](./.env) 
 ```env
 TOKEN = "your_token"
@@ -47,36 +47,51 @@ TOKEN = "your_token"
     "LOAD_SLASH_GLOBAL": false
 }
 ```
-Setting the `"DEFAULT_PLATFORM"` allows you to omit that platform in the command part  
-If `LOAD_SLASH_GLOBAL` is `false` only valid in that Guild, otherwise that will valid in all Guild.
+Definir o `"DEFAULT_PLATFORM"` permite que você omita essa plataforma na parte do comando
+Se `LOAD_SLASH_GLOBAL` for `false` válido apenas nessa Guilda, caso contrário será válido em todas as Guildas.
 
-## Running the script 
+## Ligando o Bot
 
 ```
 node index.js
 ```
 
-## Commands
+## Comandos
 
-get profile
+obter perfil
 ```
 +r6 [PC/XBOX/PSN] <PLAYER_NAME>
 ```
 
-get Casual, Rank, Unrank, Deathmatch statistics  
+obtenha estatísticas casuais, de classificação, sem classificação e de deathmatch
 ```
 +r6 [PC/XBOX/PSN] <PLAYER_NAME> [RANK/CASUAL/UNRANK/DEATHMATCH]
 ```
 
-get Operators statistics  
+obter estatísticas de operadores
 ```
 +r6 [PC/XBOX/PSN] <PLAYER_NAME> operator <OPERATOR_NAME>
 ```
 
-get help
+obter ajuda
 ```
 +r6 help
 ```
+
+#Ex:
+
+![image](https://user-images.githubusercontent.com/92656405/202003954-86cbe8dd-9286-44a0-9c5b-4d7f6f2283cc.png)
+
+![image](https://user-images.githubusercontent.com/92656405/202004142-4ee59a61-eda8-411a-a218-58cc1a1307a5.png)
+
+
+
+
+
+
+
+
+
 
 [<img src="https://canary.discordapp.com/api/guilds/664835490985410588/widget.png?style=banner2">](https://discord.gg/TEMauza)
 
